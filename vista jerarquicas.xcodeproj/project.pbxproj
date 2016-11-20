@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56F5BAF1DE0A95F0076702D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BAE1DE0A95F0076702D /* AppDelegate.swift */; };
+		A56F5BB11DE0A95F0076702D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BB01DE0A95F0076702D /* ViewController.swift */; };
+		A56F5BB71DE0A95F0076702D /* vista_jerarquicas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BB51DE0A95F0076702D /* vista_jerarquicas.xcdatamodeld */; };
+		A56F5BB91DE0A95F0076702D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56F5BB81DE0A95F0076702D /* Assets.xcassets */; };
+		A56F5BBC1DE0A95F0076702D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56F5BBA1DE0A95F0076702D /* LaunchScreen.storyboard */; };
+		A56F5BC71DE0A95F0076702D /* vista_jerarquicasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BC61DE0A95F0076702D /* vista_jerarquicasTests.swift */; };
+		A56F5BD21DE0A95F0076702D /* vista_jerarquicasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BD11DE0A95F0076702D /* vista_jerarquicasUITests.swift */; };
+		A56F5BE01DE0AD7F0076702D /* BusquedaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BDF1DE0AD7F0076702D /* BusquedaViewController.swift */; };
+		A56F5BE61DE0FEFF0076702D /* libro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BE51DE0FEFF0076702D /* libro.swift */; };
+		A56F5BE81DE147380076702D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56F5BE71DE147380076702D /* Main.storyboard */; };
+		A56F5BEA1DE147BE0076702D /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F5BE91DE147BE0076702D /* DetalleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A56F5BC31DE0A95F0076702D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56F5BA31DE0A95F0076702D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56F5BAA1DE0A95F0076702D;
+			remoteInfo = "vista jerarquicas";
+		};
+		A56F5BCE1DE0A95F0076702D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56F5BA31DE0A95F0076702D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56F5BAA1DE0A95F0076702D;
+			remoteInfo = "vista jerarquicas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A56F5BAB1DE0A95F0076702D /* vista jerarquicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vista jerarquicas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56F5BAE1DE0A95F0076702D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A56F5BB01DE0A95F0076702D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A56F5BB61DE0A95F0076702D /* vista_jerarquicas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vista_jerarquicas.xcdatamodel; sourceTree = "<group>"; };
+		A56F5BB81DE0A95F0076702D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56F5BBB1DE0A95F0076702D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A56F5BBD1DE0A95F0076702D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56F5BC21DE0A95F0076702D /* vista jerarquicasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vista jerarquicasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56F5BC61DE0A95F0076702D /* vista_jerarquicasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vista_jerarquicasTests.swift; sourceTree = "<group>"; };
+		A56F5BC81DE0A95F0076702D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56F5BCD1DE0A95F0076702D /* vista jerarquicasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vista jerarquicasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56F5BD11DE0A95F0076702D /* vista_jerarquicasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vista_jerarquicasUITests.swift; sourceTree = "<group>"; };
+		A56F5BD31DE0A95F0076702D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56F5BDF1DE0AD7F0076702D /* BusquedaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusquedaViewController.swift; sourceTree = "<group>"; };
+		A56F5BE51DE0FEFF0076702D /* libro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libro.swift; sourceTree = "<group>"; };
+		A56F5BE71DE147380076702D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A56F5BE91DE147BE0076702D /* DetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56F5BA81DE0A95F0076702D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56F5BBF1DE0A95F0076702D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56F5BCA1DE0A95F0076702D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56F5BA21DE0A95F0076702D = {
+			isa = PBXGroup;
+			children = (
+				A56F5BAD1DE0A95F0076702D /* vista jerarquicas */,
+				A56F5BC51DE0A95F0076702D /* vista jerarquicasTests */,
+				A56F5BD01DE0A95F0076702D /* vista jerarquicasUITests */,
+				A56F5BAC1DE0A95F0076702D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A56F5BAC1DE0A95F0076702D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56F5BAB1DE0A95F0076702D /* vista jerarquicas.app */,
+				A56F5BC21DE0A95F0076702D /* vista jerarquicasTests.xctest */,
+				A56F5BCD1DE0A95F0076702D /* vista jerarquicasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56F5BAD1DE0A95F0076702D /* vista jerarquicas */ = {
+			isa = PBXGroup;
+			children = (
+				A56F5BE41DE0FEF10076702D /* modelo */,
+				A56F5BAE1DE0A95F0076702D /* AppDelegate.swift */,
+				A56F5BB01DE0A95F0076702D /* ViewController.swift */,
+				A56F5BDF1DE0AD7F0076702D /* BusquedaViewController.swift */,
+				A56F5BE91DE147BE0076702D /* DetalleViewController.swift */,
+				A56F5BE71DE147380076702D /* Main.storyboard */,
+				A56F5BBA1DE0A95F0076702D /* LaunchScreen.storyboard */,
+				A56F5BB81DE0A95F0076702D /* Assets.xcassets */,
+				A56F5BBD1DE0A95F0076702D /* Info.plist */,
+				A56F5BB51DE0A95F0076702D /* vista_jerarquicas.xcdatamodeld */,
+			);
+			path = "vista jerarquicas";
+			sourceTree = "<group>";
+		};
+		A56F5BC51DE0A95F0076702D /* vista jerarquicasTests */ = {
+			isa = PBXGroup;
+			children = (
+				A56F5BC61DE0A95F0076702D /* vista_jerarquicasTests.swift */,
+				A56F5BC81DE0A95F0076702D /* Info.plist */,
+			);
+			path = "vista jerarquicasTests";
+			sourceTree = "<group>";
+		};
+		A56F5BD01DE0A95F0076702D /* vista jerarquicasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A56F5BD11DE0A95F0076702D /* vista_jerarquicasUITests.swift */,
+				A56F5BD31DE0A95F0076702D /* Info.plist */,
+			);
+			path = "vista jerarquicasUITests";
+			sourceTree = "<group>";
+		};
+		A56F5BE41DE0FEF10076702D /* modelo */ = {
+			isa = PBXGroup;
+			children = (
+				A56F5BE51DE0FEFF0076702D /* libro.swift */,
+			);
+			name = modelo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56F5BAA1DE0A95F0076702D /* vista jerarquicas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56F5BD61DE0A95F0076702D /* Build configuration list for PBXNativeTarget "vista jerarquicas" */;
+			buildPhases = (
+				A56F5BA71DE0A95F0076702D /* Sources */,
+				A56F5BA81DE0A95F0076702D /* Frameworks */,
+				A56F5BA91DE0A95F0076702D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vista jerarquicas";
+			productName = "vista jerarquicas";
+			productReference = A56F5BAB1DE0A95F0076702D /* vista jerarquicas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A56F5BC11DE0A95F0076702D /* vista jerarquicasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56F5BD91DE0A95F0076702D /* Build configuration list for PBXNativeTarget "vista jerarquicasTests" */;
+			buildPhases = (
+				A56F5BBE1DE0A95F0076702D /* Sources */,
+				A56F5BBF1DE0A95F0076702D /* Frameworks */,
+				A56F5BC01DE0A95F0076702D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56F5BC41DE0A95F0076702D /* PBXTargetDependency */,
+			);
+			name = "vista jerarquicasTests";
+			productName = "vista jerarquicasTests";
+			productReference = A56F5BC21DE0A95F0076702D /* vista jerarquicasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A56F5BCC1DE0A95F0076702D /* vista jerarquicasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56F5BDC1DE0A95F0076702D /* Build configuration list for PBXNativeTarget "vista jerarquicasUITests" */;
+			buildPhases = (
+				A56F5BC91DE0A95F0076702D /* Sources */,
+				A56F5BCA1DE0A95F0076702D /* Frameworks */,
+				A56F5BCB1DE0A95F0076702D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56F5BCF1DE0A95F0076702D /* PBXTargetDependency */,
+			);
+			name = "vista jerarquicasUITests";
+			productName = "vista jerarquicasUITests";
+			productReference = A56F5BCD1DE0A95F0076702D /* vista jerarquicasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A56F5BA31DE0A95F0076702D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wilmer Mendoza";
+				TargetAttributes = {
+					A56F5BAA1DE0A95F0076702D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 645UX58X3D;
+					};
+					A56F5BC11DE0A95F0076702D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 645UX58X3D;
+						TestTargetID = A56F5BAA1DE0A95F0076702D;
+					};
+					A56F5BCC1DE0A95F0076702D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 645UX58X3D;
+						TestTargetID = A56F5BAA1DE0A95F0076702D;
+					};
+				};
+			};
+			buildConfigurationList = A56F5BA61DE0A95F0076702D /* Build configuration list for PBXProject "vista jerarquicas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A56F5BA21DE0A95F0076702D;
+			productRefGroup = A56F5BAC1DE0A95F0076702D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56F5BAA1DE0A95F0076702D /* vista jerarquicas */,
+				A56F5BC11DE0A95F0076702D /* vista jerarquicasTests */,
+				A56F5BCC1DE0A95F0076702D /* vista jerarquicasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56F5BA91DE0A95F0076702D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56F5BE81DE147380076702D /* Main.storyboard in Resources */,
+				A56F5BBC1DE0A95F0076702D /* LaunchScreen.storyboard in Resources */,
+				A56F5BB91DE0A95F0076702D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56F5BC01DE0A95F0076702D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56F5BCB1DE0A95F0076702D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A56F5BA71DE0A95F0076702D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56F5BEA1DE147BE0076702D /* DetalleViewController.swift in Sources */,
+				A56F5BE01DE0AD7F0076702D /* BusquedaViewController.swift in Sources */,
+				A56F5BB71DE0A95F0076702D /* vista_jerarquicas.xcdatamodeld in Sources */,
+				A56F5BB11DE0A95F0076702D /* ViewController.swift in Sources */,
+				A56F5BAF1DE0A95F0076702D /* AppDelegate.swift in Sources */,
+				A56F5BE61DE0FEFF0076702D /* libro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56F5BBE1DE0A95F0076702D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56F5BC71DE0A95F0076702D /* vista_jerarquicasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56F5BC91DE0A95F0076702D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56F5BD21DE0A95F0076702D /* vista_jerarquicasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A56F5BC41DE0A95F0076702D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56F5BAA1DE0A95F0076702D /* vista jerarquicas */;
+			targetProxy = A56F5BC31DE0A95F0076702D /* PBXContainerItemProxy */;
+		};
+		A56F5BCF1DE0A95F0076702D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56F5BAA1DE0A95F0076702D /* vista jerarquicas */;
+			targetProxy = A56F5BCE1DE0A95F0076702D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A56F5BBA1DE0A95F0076702D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56F5BBB1DE0A95F0076702D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A56F5BD41DE0A95F0076702D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A56F5BD51DE0A95F0076702D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56F5BD71DE0A95F0076702D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "vista jerarquicas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wilmer.-.vista-jerarquicas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A56F5BD81DE0A95F0076702D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "vista jerarquicas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wilmer.-.vista-jerarquicas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A56F5BDA1DE0A95F0076702D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "vista jerarquicasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wilmer.-.vista-jerarquicasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vista jerarquicas.app/vista jerarquicas";
+			};
+			name = Debug;
+		};
+		A56F5BDB1DE0A95F0076702D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "vista jerarquicasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wilmer.-.vista-jerarquicasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vista jerarquicas.app/vista jerarquicas";
+			};
+			name = Release;
+		};
+		A56F5BDD1DE0A95F0076702D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "vista jerarquicasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wilmer.-.vista-jerarquicasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "vista jerarquicas";
+			};
+			name = Debug;
+		};
+		A56F5BDE1DE0A95F0076702D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "vista jerarquicasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wilmer.-.vista-jerarquicasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "vista jerarquicas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A56F5BA61DE0A95F0076702D /* Build configuration list for PBXProject "vista jerarquicas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56F5BD41DE0A95F0076702D /* Debug */,
+				A56F5BD51DE0A95F0076702D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56F5BD61DE0A95F0076702D /* Build configuration list for PBXNativeTarget "vista jerarquicas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56F5BD71DE0A95F0076702D /* Debug */,
+				A56F5BD81DE0A95F0076702D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A56F5BD91DE0A95F0076702D /* Build configuration list for PBXNativeTarget "vista jerarquicasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56F5BDA1DE0A95F0076702D /* Debug */,
+				A56F5BDB1DE0A95F0076702D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A56F5BDC1DE0A95F0076702D /* Build configuration list for PBXNativeTarget "vista jerarquicasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56F5BDD1DE0A95F0076702D /* Debug */,
+				A56F5BDE1DE0A95F0076702D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A56F5BB51DE0A95F0076702D /* vista_jerarquicas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A56F5BB61DE0A95F0076702D /* vista_jerarquicas.xcdatamodel */,
+			);
+			currentVersion = A56F5BB61DE0A95F0076702D /* vista_jerarquicas.xcdatamodel */;
+			path = vista_jerarquicas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A56F5BA31DE0A95F0076702D /* Project object */;
+}
